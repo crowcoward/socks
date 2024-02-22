@@ -67,7 +67,7 @@ def sockson():
     elif status_func["sockson"] == True:
         print("You're already wearing them, silly.")
     else:
-        print("They disentigrated awhile ago. What are you searching for?")
+        print("They disintegrated awhile ago. What are you searching for?")
 #elif for if there is no input
 # write same function for socks
 def inputchecker(userinputvar):
@@ -98,7 +98,18 @@ def shoes_on_off(shoeq):
         shoesoff()
     return
 
+def socks_on_off(sockq):
+    a = int(sockq)
+    if sockq == 0:
+        sockson()
+    elif sockq == 1:
+        socksoff()
+    return
+
 x = input("Do you want to wear your shoes? 0 for Yes, 1 for No.")
 y = inputchecker(x)
 shoes_on_off(y)
 
+b = input("What about your socks? Do you want to wear them? 0 for Yes, 1 for No.")
+c = inputchecker(b)
+socks_on_off(c)
