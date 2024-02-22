@@ -106,10 +106,10 @@ def socks_on_off(sockq):
         socksoff()
     return
 
-x = input("Do you want to wear your shoes? 0 for Yes, 1 for No.")
+""" x = input("Do you want to wear your shoes? 0 for Yes, 1 for No.")
 y = inputchecker(x)
 shoes_on_off(y)
 
 b = input("What about your socks? Do you want to wear them? 0 for Yes, 1 for No.")
 c = inputchecker(b)
-socks_on_off(c)
+socks_on_off(c) """
